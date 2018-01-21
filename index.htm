@@ -113,13 +113,10 @@
 		
 					</div>
 	
-					<div id="bottom" class="bottom">
-				
-							<!--Slider-->
+					<div id="bottom">
     
-							<div class="sliderWrapper">
-				
-				
+							<div class="sliderWrapper"> 
+						
 								<div id="slider" class="slider" align="center">
 					
 									<h3>Products</h3>
@@ -159,12 +156,12 @@
 											</div>
 										</li>
 					 
-										<!--   <input type="radio" name="radio-btn" id="img-6" />
+										  <input type="radio" name="radio-btn" id="img-6" />
 											<li class="slide-container">
 											<div class="slide">
 											<img src="./images/Plates_Round_All.png" />
 											</div>
-											</li>  -->
+											</li> 
                     
             
 											<li class="nav-dots">
@@ -173,70 +170,48 @@
 												<label for="img-3" class="nav-dot" id="img-dot-3"></label>
 												<label for="img-4" class="nav-dot" id="img-dot-4"></label>
 												<label for="img-5" class="nav-dot" id="img-dot-5"></label>
-											<!-- <label for="img-6" class="nav-dot" id="img-dot-6"></label>  -->
+												 <label for="img-6" class="nav-dot" id="img-dot-6"></label> 
 											</li>
 										</ul>
 									</div>
-			 			 
-									<script>
-										(function(){
-											var imgLen = document.getElementById('slider');
-											var images = imgLen.getElementsByTagName('img');
-											var counter = 1;
-
-											var delayInMilliseconds = 1000; //1 second
-
-					 					 
-					 
-											if(counter <= images.length){
-			             
-												setInterval(function(){
-													images[0].src = images[counter].src;
-													console.log(images[counter].src);
-													counter++;
-
-													if(counter === images.length){
-														setInterval(function() {
-															//your code to be executed after 1 second
-														}, delayInMilliseconds);
-			                     
-														counter = 1;
-								 							 								 
-													}
-												},2000);
-						 						 
-											}
-										})();
-										</script>
-			 
-									</div>  
-			 
 			 
 								</div>
+								
+							</div>
 		 	 
-		 
-								<footer id="colophon" class="site-footer" role="contentinfo">
-									<div class="container">    
-										<div class="colophon-inner colophon-grid-2">
-											<div class="colophon-column-left">
-												<div class="colophon-column">
-													<div class="copyright"><a>Copyright © All rights reserved.</a></div>
-												</div>
-											</div> 
-											<div class="colophon-column-right">
-												<div class="colophon-column">
-													<div class="site-info"><a target="_blank" rel="designer" href="http://prakruthiecoproducts.in/"> By Prakruthi Innovations!!!</a></div>
-												</div>
-											</div> 
-										</div>
+							<footer id="footer"></footer>
+						
+							<div id="process">
+								 <img src="./images/screen_shot3.png" alt="" />
+							</div>
+			 
+						  	<div>
+								<footer id="footer1"></footer>
+							</div>	
+			 						
+							
+							<footer id="colophon" class="site-footer" role="contentinfo">
+								<div class="container">    
+									<div class="colophon-inner colophon-grid-2">
+										<div class="colophon-column-left">
+											<div class="colophon-column">
+												<div class="copyright"><a>Copyright © All rights reserved.</a></div>
+											</div>
+										</div> 
+										<div class="colophon-column-right">
+											<div class="colophon-column">
+												<div class="site-info"><a target="_blank" rel="designer" href="http://prakruthiecoproducts.in/"> By Prakruthi Innovations!!!</a></div>
+											</div>
+										</div> 
 									</div>
-								</footer>
-		
-								<div class="bg-image">
-									<img src="./images/screen_shot1.png" alt="">
 								</div>
+							</footer>
+		
+					<!--		<div class="bg-image">
+								<img src="./images/screen_shot1.png" alt="">
+							</div> -->
 			
-							</div><!-- #page -->
+						</div><!-- #page -->
 
 
 							<a href="http://prakruthiecoproducts.in/#page" class="scrollup" id="btn-scrollup"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
@@ -245,6 +220,38 @@
 							<script type="text/javascript" src="./Prakruthi_Eco_Products/jquery.sidr.min.js"></script>
 							<script type="text/javascript" src="./Prakruthi_Eco_Products/custom.min.js"></script>
 							<script type="text/javascript" src="./Prakruthi_Eco_Products/wp-embed.min.js"></script>
+							
+							<script>
+								(function(){
+									var imgLen = document.getElementById('slider');
+									var images = imgLen.getElementsByTagName('img');
+									var counter = 1;
+
+									var delayInMilliseconds = 1000; //1 second
+
+			 					 
+			 
+									if(counter <= images.length){
+	             
+										setInterval(function(){
+											images[0].src = images[counter].src;
+											console.log(images[counter].src);
+											counter++;
+
+											if(counter === images.length){
+												setInterval(function() {
+													//your code to be executed after 1 second
+												}, delayInMilliseconds);
+	                     
+												counter = 1;
+						 							 								 
+											}
+										},2000);
+				 						 
+									}
+								})();
+							</script>
+							
 
 						</body>
 
