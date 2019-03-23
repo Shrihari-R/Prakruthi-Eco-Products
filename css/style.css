@@ -90,16 +90,18 @@ h3{
 .slider {
 	float: right;
     position: center;
-	margin-right: 120px;
 	margin-top: 20px;
+    width: 100vw;
 
 }
 
 .sliderWrapper {
     text-align: center;
+    align-content: center;
+    position: center;
     background-size:cover;
     padding:20px 0;
-    width:cover;
+    width:100vw;
     height:600px;
     background: #FEFEFE;
 }
@@ -112,8 +114,8 @@ img {
     background-size:cover;
     background-image:url("https://static1.squarespace.com/static/5604dfbce4b075ee2efacca2/t/5625d586e4b06f8e7d740c51/1508217486782/cambodianhouse1920x1139.jpg");
     padding:20px 0px;
-    width:cover;
-    height:800px;
+    width:100vw;
+    height:100vh;
 }
 
 .process {
@@ -121,15 +123,16 @@ img {
     background-size:cover;
     background-image:url("../images/screen_shot3.png");
     margin-bottom:-5px;
-    width:cover;
+    width:100vw;
     height:650px;
 }
 
 .about {
     text-align: center;
+    align-content: center;
     background-size:cover;
     padding:50px 0;
-    width:cover;
+    width:100vw;
     height:650px;
 }
 
@@ -138,7 +141,7 @@ img {
     background-size:cover;
     padding:20px 0;
     margin-bottom: 100px;
-    width:cover;
+    width:100vw;
     height:650px;
 }
 
